@@ -1,0 +1,22 @@
+{
+  "name": "stefancox",
+  "version": "1.0.0",
+  "description": "Stefan Cox Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://richarddowsett@github.com/richarddowsett/stefancox.git"
+  },
+  "author": "Richard Dowsett <richarddowsett@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richarddowsett/stefancox/issues"
+  },
+  "homepage": "https://github.com/richarddowsett/stefancox#readme",
+  "dependencies": {
+    "bower": "^1.7.2"
+  }
+}
