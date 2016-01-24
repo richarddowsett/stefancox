@@ -9,6 +9,7 @@
 
     <!-- Bootstrap -->
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/scd.css" rel="stylesheet"/>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,7 +35,7 @@
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
+              <li class="active"><a href="#" ng-click="switch('home')">Home</a></li>
               <li><a href="#" ng-click="switch('gallery')">Gallery</a></li>
               <li><a href="#" ng-click="switch('about')">About</a></li>
               <li class="dropdown">
@@ -55,14 +56,15 @@
       </nav>
 
       <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <h1>Navbar example</h1>
+      
+<div ng-switch on="tabView">
+  <div class="jumbotron" ng-switch-when="home">
+        <h1>Stefan Cox</h1>
         <p>This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
         <p>
           <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
         </p>
       </div>
-<div ng-switch on="tabView">
         <div class="row" ng-switch-when="gallery">
 
             <div class="col-lg-12">
@@ -148,7 +150,7 @@
         	app.controller('myCtrl', ['$scope','$interval',
             function($scope,$interval){
             	console.log("Starting angular")
-            	$scope.tabView="gallery"
+            	$scope.tabView="home"
             	$scope.switch = function(active){
             		console.log("switching to " + active)
             		$scope.tabView=active
