@@ -56,17 +56,17 @@
       </nav>
 
       <!-- Main component for a primary marketing message or call to action -->
-      
-<div ng-switch on="tabView">
+
+<div class="container" ng-switch on="tabView">
   <div class="jumbotron" ng-switch-when="home">
+    <div class="container">
         <h1>Stefan Cox</h1>
-        <p>This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-        <p>
-          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
+        <p>Portfolio for architectural drawings by Stefan Cox<p>
         </p>
       </div>
+      </div>
         <div class="row" ng-switch-when="gallery">
-
+<div class="container">
             <div class="col-lg-12">
                 <h1 class="page-header">Thumbnail Gallery</h1>
             </div>
@@ -131,12 +131,13 @@
                     <img class="img-responsive" src="http://placehold.it/400x300" alt="">
                 </a>
             </div>
+          </div>
         </div>
 
         <!-- about -->
         <div class="row" ng-switch-when="about">
         	working!!!
-            
+
         </div>
 </div>
 
@@ -159,8 +160,3 @@
     </script>
   </body>
 </html>
-
-
-
-
-
