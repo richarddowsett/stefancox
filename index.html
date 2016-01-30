@@ -49,16 +49,14 @@
 
     <!-- Main component for a primary marketing message or call to action -->
 
-    <div class="container" ng-switch on="tabView">
-      <div class="jumbotron" ng-switch-when="home">
-        <div class="container">
+    <div class="tabview" ng-switch on="tabView">
+      <div class="jumbotron tabsection" ng-switch-when="home">
           <h1>Stefan Cox</h1>
           <p>Portfolio for architectural drawings by Stefan Cox
             <p>
             </p>
-        </div>
       </div>
-      <div class="gallery" ng-switch-when="gallery">
+      <div class="gallery tabsection" ng-switch-when="gallery">
         <div class="row">
         <div class="col-md-4">
           <img src="img/arr-left.svg" />

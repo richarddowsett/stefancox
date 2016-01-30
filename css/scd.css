@@ -17,19 +17,30 @@ header {
     margin-right: auto;
  }
 
+ .tabsection {
+   height: 80%;
+   color: white;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+ }
+
  .gallery {
    height: 60%;
  }
 
 .jumbotron {
-  height: 80%;
+
   font-size: 24px;
   background-image: url('../img/jumbotron.jpg');
-  color: white;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+}
+
+.tabview {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+  height: 80%;
 }
 
 .container {
