@@ -11,6 +11,16 @@ header {
     color: #fff;
 }
 
+.gallery-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .gallery {
+   height: 60%;
+ }
+
 .jumbotron {
   height: 80%;
   font-size: 24px;
