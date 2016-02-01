@@ -7,7 +7,7 @@ app.use(express.static(__dirname + '/public'));
 app.use('/bower_components',  express.static(__dirname + '/bower_components'));
 app.use('/css',  express.static(__dirname + '/css'));
 app.use('/img', express.static(__dirname + '/img'));
-app.use('js', express.static(__dirname + '/js'));
+app.use('/js', express.static(__dirname + '/js'));
 app.get('/', function (req, res) {
   res.sendfile(__dirname + '/index.html');
 });
