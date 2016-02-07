@@ -1,10 +1,9 @@
-body,html {
-  height: 100%;
-}
+body,html
+  height 100%
 
-body {
-  min-height: 100%;
-}
+body
+  color white
+  min-height 100%
 
 header {
   text-align: center;
@@ -56,6 +55,26 @@ header {
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
 }
+
+mainColour = #4D5157
+colourOne = #888C90
+colourTwo = #676C72
+colourThree = #313539
+colourFour = #181D23
+
+.navbar-default
+  background-color mainColour
+  border-color #E7E7E7
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover
+  background-color colourTwo
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>li>a
+  color white
+
 
 .navbar a:focus {
   outline: 0;
