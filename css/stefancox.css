@@ -107,6 +107,10 @@ header .intro-text .skills {
 
   header .intro-text .skills {
     font-size: 1.75em; } }
+.portfolio-item img {
+  height: 250px;
+  width: 300px; }
+
 .navbar-custom {
   background: #2C3E50;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
