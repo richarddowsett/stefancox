@@ -7,8 +7,16 @@ body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden; }
 
-.about-text {
-  text-align: center; }
+#contact table {
+  font-size: 20px;
+  margin: 0 auto; }
+
+#contact th {
+  padding-right: 20px; }
+
+.about-text ul {
+  font-size: 20px;
+  font-weight: bold; }
 
 p {
   font-size: 20px; }
