@@ -125,6 +125,26 @@ header .intro-text .skills {
   }
 }
 
+
+.thumbnail img {
+  height: 250px;
+  width: 250px;
+}
+
+@media (min-width: 767px) {
+  .thumbnail img {
+    height: 250px;
+    width: 250px;
+  }
+}
+
+@media (max-width: 765px){
+  .thumbnail img {
+    height: 150px;
+  }
+}
+
+
 .portfolio-item img {
   height: 250px;
   width: 300px;
@@ -485,9 +505,7 @@ fieldset[disabled] .btn-success.active {
   margin: 0;
   font-size: 3em;
 }
-.portfolio-modal .modal-content img {
-  margin-bottom: 30px;
-}
+
 .portfolio-modal .modal-content .item-details {
   margin: 30px 0;
 }
