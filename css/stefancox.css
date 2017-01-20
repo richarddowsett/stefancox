@@ -14,6 +14,11 @@ body {
 #contact th {
   padding-right: 20px; }
 
+.thumbnail-modal {
+  height: 300px;
+  width: 350px;
+}
+
 .about-text ul {
   font-size: 20px;
   font-weight: bold; }
@@ -116,16 +121,15 @@ header .intro-text .skills {
   header .intro-text .skills {
     font-size: 1.75em; } }
 .thumbnail img {
-  height: 250px;
-  width: 250px; }
+  min-height: 150px;
+  max-height: 280px; }
 
-@media (min-width: 767px) {
-  .thumbnail img {
+  .thumbnail {
     height: 250px;
-    width: 250px; } }
-@media (max-width: 765px) {
-  .thumbnail img {
-    height: 150px; } }
+    width: 250px;
+    border: 0px;
+  }
+
 .portfolio-item img {
   height: 250px;
   width: 300px; }
